@@ -1,0 +1,11 @@
+#sending mail using python 
+import smtplib
+s=smtplib.SMPT('SMPT.GMAIL.COM','587')
+s.startls()
+sender='sender@gmail.com'
+receiver='hemanth99.com'
+msg="hii"
+s.login(sender,'ghjgf')
+s.sendmail(sender,recive,message)
+print("msg sent succesfully")
+s.quit
