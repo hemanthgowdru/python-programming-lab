@@ -1,0 +1,15 @@
+try:
+	l={1,2,3,4,5}
+	a=int(input("enter a number"))
+	if a<4:
+		raise TypeError
+	elif a==5:
+		raise NameError
+
+except TypeError:
+	print("Type error")
+except nameerror:
+	print("Name error")
+finally: 
+	print("complete")	
+
